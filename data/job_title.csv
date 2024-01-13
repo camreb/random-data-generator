@@ -1,0 +1,201 @@
+job_title;gender
+Programista;M
+Inżynier;M
+Przedsiębiorca;M
+Nauczyciel;M
+Lekarz;M
+Policjant;M
+Elektryk;M
+Mechanik samochodowy;M
+Sprzedawca;M
+Kierowca;M
+Księgowy;M
+Architekt;M
+Informatyk;M
+Psycholog;M
+Instruktor fitnessu;M
+Grafik komputerowy;M
+Prawnik;M
+Farmaceuta;M
+Geodeta;M
+Inżynier dźwięku;M
+Animator;M
+Fotograf;M
+Lotniczy kontroler ruchu;M
+Zegarmistrz;M
+Copywriter;M
+Inżynier lotnictwa;M
+Ogrodnik;M
+Pracownik socjalny;M
+Stróż bezpieczeństwa;M
+Hydraulik;M
+Kucharz;M
+Projektant wnętrz;M
+Konsultant finansowy;M
+Fotoreporter;M
+Terapeuta zajęciowy;M
+Astronom;M
+Geolog;M
+Projektant gier komputerowych;M
+Wulkanizator;M
+Steward;M
+Malarz;M
+Barman;M
+Tłumacz;M
+Florysta;M
+Operator maszyn;M
+Cukiernik;M
+Animator kultury;M
+Strażak;M
+Menedżer projektu;M
+Operator koparki;M
+Weterynarz;M
+Operator kamer;M
+Projektant oprogramowania;M
+Dziennikarz;M
+Geograf;M
+Logistyk;M
+Animator 3D;M
+Hydrotechnik;M
+Broker nieruchomości;M
+Operator dźwigu;M
+Scenarzysta;M
+Elektronik;M
+Rzeźbiarz;M
+Tester oprogramowania;M
+Przewodnik turystyczny;M
+Strażnik miejski;M
+Konsultant ds. bezpieczeństwa;M
+Wulkanizator samochodowy;M
+Operator linii produkcyjnej;M
+Muzyk;M
+Tester jakości;M
+Agent ubezpieczeniowy;M
+Mechanik lotniczy;M
+Technik radiolog;M
+Operator CNC;M
+Sprzedawca samochodów;M
+Architekt krajobrazu;M
+Ratownik medyczny;M
+Chemik;M
+Operator maszyn budowlanych;M
+Operator kamery filmowej;M
+Kierownik produkcji;M
+Operator wózka widłowego;M
+Konsultant telefoniczny;M
+Notariusz;M
+Specjalista ds. reklamy;M
+Barista;M
+Operator spycharki;M
+Tłumacz języka migowego;M
+Operator suwnicy;M
+Projektant elektroniki;M
+Specjalista ds. kadr;M
+Kierownik sklepu;M
+Operator koparko-ładowarki;M
+Grafik reklamowy;M
+Architekt wnętrz;M
+Operator maszyny do szycia;M
+Operator wiertnicy;M
+Operator maszyn rolniczych;M
+Konsultant IT;M
+Nauczycielka;K
+Lekarka;K
+Programistka;K
+Przedsiębiorczyni;K
+Inżynierka;K
+Pielęgniarka;K
+Psycholożka;K
+Sekretarka;K
+Architektka;K
+Graficzka komputerowa;K
+Farmaceutka;K
+Księgowa;K
+Informatyczka;K
+Pracownica socjalna;K
+Fotografka;K
+Dietetyczka;K
+Projektantka wnętrz;K
+Tłumaczka;K
+Graficzka;K
+Florystka;K
+Konsultantka finansowa;K
+Terapeutka zajęciowa;K
+Projektantka wnętrz;K
+Animatorka;K
+Kosmetyczka;K
+Dziennikarka;K
+Wizażystka;K
+Inżynierka dźwięku;K
+Recepcjonistka;K
+Geodetka;K
+Florystka;K
+Konsultantka modowa;K
+Przewodniczka turystyczna;K
+Fotoreporterka;K
+Asystentka biura;K
+Animator kultury;K
+Projektantka mody;K
+Wulkanizatorka;K
+Asystentka weterynarii;K
+Konsultantka HR;K
+Sprzątaczka;K
+Krawcowa;K
+Operator maszyn;K
+Cukierniczka;K
+Barmanka;K
+Hydraulik;K
+Operator koparki;K
+Kelnerka;K
+Strażak;K
+Menedżerka projektu;K
+Weterynarz;K
+Operatorka kamer;K
+Projektantka oprogramowania;K
+Dziennikarka;K
+Geografka;K
+Logistyczka;K
+Animatorka 3D;K
+Hydrotechniczka;K
+Brokerczyni nieruchomości;K
+Operatorka dźwigu;K
+Scenarzystka;K
+Elektronik;K
+Rzeźbiarka;K
+Testerka oprogramowania;K
+Przewodniczka turystyczna;K
+Strażniczka miejska;K
+Konsultantka ds. bezpieczeństwa;K
+Wulkanizatorka samochodowa;K
+Operatorka linii produkcyjnej;K
+Muzyk;K
+Testerka jakości;K
+Agentka ubezpieczeniowa;K
+Mechanik lotnicza;K
+Techniczka radiologa;K
+Operatorka CNC;K
+Sprzedawczyni samochodów;K
+Architektka krajobrazu;K
+Ratowniczka medyczna;K
+Chemiczka;K
+Operatorka maszyn budowlanych;K
+Operatorka kamery filmowej;K
+Kierowniczka produkcji;K
+Operatorka wózka widłowego;K
+Konsultantka telefoniczna;K
+Notariuszka;K
+Specjalistka ds. reklamy;K
+Baristka;K
+Operatorka spycharki;K
+Tłumaczka języka migowego;K
+Operatorka suwnicy;K
+Projektantka elektroniki;K
+Specjalistka ds. kadr;K
+Kierowniczka sklepu;K
+Operatorka koparko-ładowarki;K
+Graficzka reklamowa;K
+Architektka wnętrz;K
+Operatorka maszyny do szycia;K
+Operatorka wiertnicy;K
+Operatorka maszyn rolniczych;K
+Konsultantka IT;K
