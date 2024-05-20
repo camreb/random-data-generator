@@ -12,31 +12,28 @@ from data_generator.fields.location import location_fields
 @app.route('/api/personal', methods=['POST'])
 def randomize_data():
 
-    data_types = {
-        'personal_fields': ['gender', 'first_name', 'last_name', 'job_title', 'email'],
-        'location_fields': ['city', 'voivodeship']
-    }
+    supported_fields = ['gender',
+                        'first_name',
+                        'last_name',
+                        'job_title',
+                        'email',
+                        'city',
+                        'voivodeship']
 
-    supported_fields = set().union(*data_types.values())
-
-    fields = get_schema_args(list(supported_fields))
+    fields = get_schema_args(supported_fields)
     size = get_size()
-    df_main = pd.DataFrame(columns=fields)
 
-    exec_dic = {
-        'personal_fields': personal_fields,
-        'location_fields': location_fields
-    }
+    data = personal_fields(fields, size)
+    data.update(location_fields(fields, size))
 
-    for d_type, d_type_fields in data_types.items():
-        intersec_fields = set(fields).intersection(d_type_fields)
-        if intersec_fields:
-            df = exec_dic[d_type](list(intersec_fields), size)
-            df_main[list(intersec_fields)] = df[list(intersec_fields)]
+    data_keys_to_del = [field_key for field_key in data.keys() if field_key not in fields]
+    for key in data_keys_to_del:
+        data.pop(key)
 
-    data = df_main[fields].to_json(orient='records')
+    data = pd.DataFrame(data).to_json(orient='records')
     data = loads(data)
+
     return jsonify({
         'success': True,
-        'data': data
+        'sample_data': data
     })
