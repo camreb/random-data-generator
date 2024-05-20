@@ -49,10 +49,9 @@ def get_size():
 
 
 def generate_email_list(fn_list, ln_list):
-    data_path = Path(__name__).resolve().parent / 'data' / 'email.txt'
+    data_path = Path(__name__).resolve().parent / 'sample_data' / 'email.txt'
     with open(data_path, 'r') as file:
         email_domain = file.read().splitlines()
     email_list = [f'{anyascii(fn_list[i][0].lower())}.{anyascii(ln_list[i].lower())}@{random.choice(email_domain)}'
                   for i in range(len(fn_list))]
-
     return email_list
