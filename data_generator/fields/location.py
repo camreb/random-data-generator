@@ -1,7 +1,7 @@
 import numpy as np
+from sqlalchemy.sql import text
 
 from data_generator.utils import measure_func_time
-from sqlalchemy.sql import text
 from data_generator import db
 
 
@@ -23,4 +23,3 @@ def location_fields(set_field: list, size: int):
     if 'voivodeship' in set_field:
         data['voivodeship'] = [voivodeships[i] for i in index_list]
     return data
-
