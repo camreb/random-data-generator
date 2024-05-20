@@ -1,6 +1,6 @@
 # **random-data-generator**
 This project is application for random data generation.
-It was created using following technilogies:
+It was created using following technologies:
 - Python
 - pandas, numpy [data transformation]
 - Flask [web application]
@@ -51,7 +51,7 @@ In order to run application please follow steps below:
 	Parameters:
 
 | Parameter     | Type          | Sample values |
-| ------------- |:-------------:| -----:        |
+| ------------- |:-------------:| -------------:|
 | size          | mandatory		| 10000         |
 | fields	    | mandatory     | first_name    |
 
