@@ -17,6 +17,8 @@ def personal_fields(fields: list, size: int) -> dict:
 
     if fields:
         data = {'gender': list(np.random.choice(np.array(['M', 'K']), size, True))}
+    else:
+        return data
 
     if 'email' in fields:
         if 'first_name' not in fields:

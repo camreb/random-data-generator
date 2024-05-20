@@ -6,7 +6,10 @@ from data_generator import db
 
 
 @measure_func_time
-def location_fields(set_field: list, size: int):
+def location_fields(fields: list, size: int):
+    data = {}
+    if not fields:
+        return data
 
     response = db.session.execute(text('SELECT city, voivodeship from locations;'))
     cities = []
@@ -17,9 +20,8 @@ def location_fields(set_field: list, size: int):
 
     index_list = np.random.choice(list(range(len(cities))), size=size, replace=True)
 
-    data = {}
-    if 'city' in set_field:
+    if 'city' in fields:
         data['city'] = [cities[i] for i in index_list]
-    if 'voivodeship' in set_field:
+    if 'voivodeship' in fields:
         data['voivodeship'] = [voivodeships[i] for i in index_list]
     return data
